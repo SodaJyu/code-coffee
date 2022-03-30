@@ -1,0 +1,10 @@
+const tillZero = (nums) => {
+    let result = 0;
+    for (let i = 0; i < nums.length; i++){
+      if (nums[i] === 0) {
+        break;
+    } else {
+      result += nums[i]
+    }}
+      return result;
+  };
